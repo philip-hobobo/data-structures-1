@@ -62,7 +62,7 @@ const CircularQueue = function (size) {
 
 const MovingAverage = function (size) {
   this.totalCount = 0;
-  this.average = 0;
+  this.avg = 0;
   this.q = new CircularQueue(size);
 
   this.next = function (val) {
